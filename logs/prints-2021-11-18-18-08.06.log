@@ -1,0 +1,6 @@
+18:07:17.263 [main] INFO  com.mindtree.runner.BigSmallRunner - browser is closed
+18:07:29.880 [main] DEBUG com.mindtree.runner.BigSmallRunner - browser is invoked
+18:07:44.596 [main] INFO  com.mindtree.runner.BigSmallRunner - the product is sold out
+18:07:44.790 [AsyncHttpClient-1-5] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+18:07:45.269 [main] INFO  com.mindtree.runner.BigSmallRunner - browser is closed
+18:08:00.135 [main] DEBUG com.mindtree.runner.BigSmallRunner - browser is invoked

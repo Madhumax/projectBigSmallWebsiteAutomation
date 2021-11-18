@@ -1,0 +1,6 @@
+18:06:38.944 [main] DEBUG com.mindtree.runner.BigSmallRunner - clicked on checkout
+18:06:39.207 [main] DEBUG com.mindtree.runner.BigSmallRunner - textmsg is validated
+18:06:39.490 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+18:06:39.740 [main] INFO  com.mindtree.runner.BigSmallRunner - browser is closed
+18:06:53.570 [main] DEBUG com.mindtree.runner.BigSmallRunner - browser is invoked
+18:06:57.372 [main] DEBUG com.mindtree.runner.BigSmallRunner - clicked on corporate gifts icon
