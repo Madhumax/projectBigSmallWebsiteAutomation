@@ -9,8 +9,9 @@
     <classes>
       <class name="com.mindtree.runner.BigSmallRunner">
         <methods>
-          <include name="marvelPage"/>
+          <include name="dropdown"/>
           <include name="browserInvoke"/>
+          <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.mindtree.runner.BigSmallRunner -->
     </classes>

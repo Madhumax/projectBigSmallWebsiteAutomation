@@ -1,0 +1,6 @@
+12:33:29.096 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x53654fce5f8f5894
+12:33:38.891 [main] DEBUG com.mindtree.runner.BigSmallRunner - browser is invoked
+12:33:39.357 [main] DEBUG com.mindtree.runner.BigSmallRunner - entered the keyword into the search box
+12:33:42.521 [main] DEBUG com.mindtree.runner.BigSmallRunner - text is entered into the searchbox
+12:33:46.964 [main] DEBUG com.mindtree.runner.BigSmallRunner - clicked on the product
+12:33:48.109 [main] DEBUG com.mindtree.runner.BigSmallRunner - clicked on wishlist icon

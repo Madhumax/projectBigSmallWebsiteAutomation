@@ -1,0 +1,6 @@
+18:15:59.373 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x5b3dec361fe63302
+18:16:11.562 [main] DEBUG com.mindtree.runner.BigSmallRunner - browser is invoked
+18:16:16.200 [main] DEBUG com.mindtree.runner.BigSmallRunner - clicked on christmas gifts icon
+18:16:22.666 [main] DEBUG com.mindtree.runner.BigSmallRunner - clicked on product
+18:16:23.226 [main] DEBUG com.mindtree.runner.BigSmallRunner - clicked on add to cart
+18:16:25.780 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

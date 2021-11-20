@@ -43,7 +43,7 @@ public class ExcelClass
 				while(rows.hasNext())
 				{
 					Row r=rows.next();
-					if(r.getCell(i).getStringCellValue().equalsIgnoreCase("BooksList"))
+					if(r.getCell(i).getStringCellValue().equalsIgnoreCase("Products"))
 					{
 						Iterator<Cell> cv=r.cellIterator();
 						while(cv.hasNext())

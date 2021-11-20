@@ -1,0 +1,5 @@
+13:56:28.325 [AsyncHttpClient-1-5] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+13:56:28.553 [main] INFO  com.mindtree.runner.BigSmallRunner - browser is closed
+13:56:39.984 [main] DEBUG com.mindtree.runner.BigSmallRunner - browser is invoked
+13:56:52.972 [main] INFO  com.mindtree.runner.BigSmallRunner - the product is sold out
+13:56:53.220 [AsyncHttpClient-1-8] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

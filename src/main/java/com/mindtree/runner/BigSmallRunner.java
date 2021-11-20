@@ -1,6 +1,7 @@
 package com.mindtree.runner;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,6 +11,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.mindtree.pageObjects.ChristmasGiftsPage;
@@ -21,22 +23,25 @@ import com.mindtree.pageObjects.PersonalizedGiftsPage;
 import com.mindtree.pageObjects.ProductPage;
 import com.mindtree.pageObjects.SignInPage;
 import com.mindtree.reusableComponents.WebDriverHelper;
+import com.mindtree.utilities.ExcelClass;
 
 
 public class BigSmallRunner extends WebDriverHelper
 {
 	private static Logger log=LogManager.getLogger(BigSmallRunner.class.getName());
+	
 	@BeforeMethod
 	public void browserInvoke() throws IOException
 	{
 		driver=baseFile();
-		driver.get(prop.getProperty("url"));
-		log.debug("browser is invoked");
+		
 	}
 	
 	@Test
 	public void signinValidation() throws IOException
 	{
+		driver.get(prop.getProperty("url"));
+		log.debug("browser is invoked");
 		LandingPage lp=new LandingPage(driver);
 		lp.getSignin().click();
 		log.info("clicked on signin icon");
@@ -47,28 +52,13 @@ public class BigSmallRunner extends WebDriverHelper
 		log.info("email and password were entered in the respective spaces");
 		
 	}
-	@Test
-	public void addToCartValidation()
-	{
-		LandingPage lp=new LandingPage(driver);
-		lp.getSearchBox().sendKeys("key chains");
-		log.debug("entered the keyword into the search box");
-		lp.getSearchBox().sendKeys(Keys.ENTER);
-		log.debug("text is entered into the searchbox");
-		ProductPage p=new ProductPage(driver);
-		p.getProduct().click();
-		log.debug("clicked on the product");
-		p.getAddToCart().click();
-		log.debug("added to the cart");
-		p.getCheckout().click();
-		log.debug("clicked on checkout");
-		Assert.assertTrue(p.getTextmessage().isDisplayed());;
-		log.debug("textmsg is validated");
-	}
+
 	
 	@Test
 	public void corporateGiftsValidation()
 	{
+		driver.get(prop.getProperty("url"));
+		log.debug("browser is invoked");
 		LandingPage l=new LandingPage(driver);
 		l.getCorporateGifts().click();
 		log.debug("clicked on corporate gifts icon");
@@ -84,6 +74,8 @@ public class BigSmallRunner extends WebDriverHelper
 	@Test
 	public void personalizedGiftsValidation()
 	{
+		driver.get(prop.getProperty("url"));
+		log.debug("browser is invoked");
 		LandingPage l=new LandingPage(driver);
 		l.getPersonalizedGifts().click();
 		log.debug("clicked on personalized gifts icon");
@@ -99,13 +91,29 @@ public class BigSmallRunner extends WebDriverHelper
 	@Test
 	public void countingLinks()
 	{
+		driver.get(prop.getProperty("url"));
+		log.debug("browser is invoked");
 		LandingPage lp=new LandingPage(driver);
 		System.out.println("Total links in the landing page "+lp.getLinks());
 	}
 	
-	@Test
-	public void textBoxProductValidation()
+	@Test(dataProvider="getdata")
+	public void textBoxValidation(String key)
 	{
+		driver.get(prop.getProperty("url"));
+		log.debug("browser is invoked");
+		LandingPage lp=new LandingPage(driver);
+		lp.getSearchBox().sendKeys(key);
+		log.debug("entered the keyword into the search box");
+		lp.getSearchBox().sendKeys(Keys.ENTER);
+		log.debug("text is entered into the searchbox");
+	}
+	
+	@Test
+	public void addToWishListValidation()
+	{
+		driver.get(prop.getProperty("url"));
+		log.debug("browser is invoked");
 		LandingPage lp=new LandingPage(driver);
 		lp.getSearchBox().sendKeys("key chains");
 		log.debug("entered the keyword into the search box");
@@ -126,6 +134,8 @@ public class BigSmallRunner extends WebDriverHelper
 	@Test
 	public void wishlistProductRemovalValidation()
 	{
+		driver.get(prop.getProperty("url"));
+		log.debug("browser is invoked");
 		LandingPage lp=new LandingPage(driver);
 		lp.getSearchBox().sendKeys("key chains");
 		log.debug("entered the keyword into the search box");
@@ -147,8 +157,10 @@ public class BigSmallRunner extends WebDriverHelper
 	}
 	
 	@Test
-	public void removeFromCartValidation()
+	public void addAndRemoveFromCartValidation()
 	{
+		driver.get(prop.getProperty("url"));
+		log.debug("browser is invoked");
 		LandingPage lp=new LandingPage(driver);
 		lp.getChristmasGifts().click();
 		log.debug("clicked on christmas gifts icon");
@@ -164,6 +176,9 @@ public class BigSmallRunner extends WebDriverHelper
 	@Test
 	public void dropdown()
 	{
+		driver.manage().window().maximize();
+		driver.get(prop.getProperty("url"));
+		log.debug("browser is invoked");
 		LandingPage l=new LandingPage(driver);
 		Actions action = new Actions(driver);
 		action.moveToElement(l.getShopByCategory()).perform();
@@ -180,6 +195,8 @@ public class BigSmallRunner extends WebDriverHelper
 	@Test
 	public void marvelPage() throws InterruptedException
 	{
+		driver.get(prop.getProperty("url"));
+		log.debug("browser is invoked");
 		LandingPage l= new LandingPage(driver);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,4000)", "");
@@ -203,5 +220,18 @@ public class BigSmallRunner extends WebDriverHelper
 	{
 		driver.quit();
 		log.info("browser is closed");
+	}
+	
+	@DataProvider
+	public Object[][] getdata() throws IOException
+	{
+		ExcelClass e = new ExcelClass();
+		ArrayList a=e.getDetailsOfSheet();
+		Object[][] obj=new Object[3][1];
+		obj[0][0]= a.get(1);
+		obj[1][0]= a.get(2);
+		obj[2][0]= a.get(3);
+		return obj;
+		
 	}
 }

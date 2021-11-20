@@ -1,0 +1,5 @@
+11:29:21.088 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x2bf8bf4833b22c39
+11:29:26.035 [main] DEBUG com.mindtree.runner.BigSmallRunner - browser is invoked
+11:29:26.433 [main] DEBUG com.mindtree.runner.BigSmallRunner - entered the keyword into the search box
+11:29:29.865 [main] DEBUG com.mindtree.runner.BigSmallRunner - text is entered into the searchbox
+11:29:30.549 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

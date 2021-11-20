@@ -1,0 +1,5 @@
+12:43:09.329 [main] DEBUG com.mindtree.runner.BigSmallRunner - clicked on access to wishlist
+12:43:09.791 [main] DEBUG com.mindtree.runner.BigSmallRunner - product is successfully added to wishlist
+12:43:10.059 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+12:43:10.647 [main] INFO  com.mindtree.runner.BigSmallRunner - browser is closed
+12:43:20.160 [main] DEBUG com.mindtree.runner.BigSmallRunner - browser is invoked

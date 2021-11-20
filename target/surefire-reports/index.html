@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods,   10 passed</span>
+                    <span class="method-stats">12 methods,   12 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmallRunner" class="method navigator-link" hash-for-method="addToCartValidation">addToCartValidation</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmallRunner" class="method navigator-link" hash-for-method="addAndRemoveFromCartValidation">addAndRemoveFromCartValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmallRunner" class="method navigator-link" hash-for-method="addToWishListValidation">addToWishListValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -134,17 +139,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmallRunner" class="method navigator-link" hash-for-method="removeFromCartValidation">removeFromCartValidation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmallRunner" class="method navigator-link" hash-for-method="signinValidation">signinValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmallRunner" class="method navigator-link" hash-for-method="textBoxProductValidation">textBoxProductValidation</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmallRunner" class="method navigator-link" hash-for-method="textBoxValidation(key chains)">textBoxValidation(key chains)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmallRunner" class="method navigator-link" hash-for-method="textBoxValidation(santa)">textBoxValidation(santa)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmallRunner" class="method navigator-link" hash-for-method="textBoxValidation(Led Lights)">textBoxValidation(Led Lights)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -172,9 +182,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addToCartValidation">
-                  </a> <!-- addToCartValidation -->
-                  <span class="method-name">addToCartValidation</span>
+                  <a name="addAndRemoveFromCartValidation">
+                  </a> <!-- addAndRemoveFromCartValidation -->
+                  <span class="method-name">addAndRemoveFromCartValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToWishListValidation">
+                  </a> <!-- addToWishListValidation -->
+                  <span class="method-name">addToWishListValidation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -214,13 +231,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="removeFromCartValidation">
-                  </a> <!-- removeFromCartValidation -->
-                  <span class="method-name">removeFromCartValidation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="signinValidation">
                   </a> <!-- signinValidation -->
                   <span class="method-name">signinValidation</span>
@@ -228,9 +238,26 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="textBoxProductValidation">
-                  </a> <!-- textBoxProductValidation -->
-                  <span class="method-name">textBoxProductValidation</span>
+                  <a name="textBoxValidation(key chains)">
+                  </a> <!-- textBoxValidation(key chains) -->
+                  <span class="method-name">textBoxValidation</span>
+                  <span class="parameters">(key chains)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textBoxValidation(santa)">
+                  </a> <!-- textBoxValidation(santa) -->
+                  <span class="method-name">textBoxValidation</span>
+                  <span class="parameters">(santa)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textBoxValidation(Led Lights)">
+                  </a> <!-- textBoxValidation(Led Lights) -->
+                  <span class="method-name">textBoxValidation</span>
+                  <span class="parameters">(Led Lights)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -298,52 +325,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'textBoxProductValidation')
+data.setCell(0, 1, 'wishlistProductRemovalValidation')
 data.setCell(0, 2, 'com.mindtree.runner.BigSmallRunner')
-data.setCell(0, 3, 18430);
+data.setCell(0, 3, 28753);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'wishlistProductRemovalValidation')
+data.setCell(1, 1, 'dropdown')
 data.setCell(1, 2, 'com.mindtree.runner.BigSmallRunner')
-data.setCell(1, 3, 17382);
+data.setCell(1, 3, 27785);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'personalizedGiftsValidation')
+data.setCell(2, 1, 'addAndRemoveFromCartValidation')
 data.setCell(2, 2, 'com.mindtree.runner.BigSmallRunner')
-data.setCell(2, 3, 15226);
+data.setCell(2, 3, 23762);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'dropdown')
+data.setCell(3, 1, 'addToWishListValidation')
 data.setCell(3, 2, 'com.mindtree.runner.BigSmallRunner')
-data.setCell(3, 3, 14716);
+data.setCell(3, 3, 23116);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'removeFromCartValidation')
+data.setCell(4, 1, 'personalizedGiftsValidation')
 data.setCell(4, 2, 'com.mindtree.runner.BigSmallRunner')
-data.setCell(4, 3, 13469);
+data.setCell(4, 3, 21251);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'marvelPage')
+data.setCell(5, 1, 'signinValidation')
 data.setCell(5, 2, 'com.mindtree.runner.BigSmallRunner')
-data.setCell(5, 3, 11158);
+data.setCell(5, 3, 18466);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'addToCartValidation')
+data.setCell(6, 1, 'corporateGiftsValidation')
 data.setCell(6, 2, 'com.mindtree.runner.BigSmallRunner')
-data.setCell(6, 3, 9334);
+data.setCell(6, 3, 17633);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'signinValidation')
+data.setCell(7, 1, 'marvelPage')
 data.setCell(7, 2, 'com.mindtree.runner.BigSmallRunner')
-data.setCell(7, 3, 8738);
+data.setCell(7, 3, 16531);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'corporateGiftsValidation')
+data.setCell(8, 1, 'textBoxValidation')
 data.setCell(8, 2, 'com.mindtree.runner.BigSmallRunner')
-data.setCell(8, 3, 8528);
+data.setCell(8, 3, 16429);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'countingLinks')
+data.setCell(9, 1, 'textBoxValidation')
 data.setCell(9, 2, 'com.mindtree.runner.BigSmallRunner')
-data.setCell(9, 3, 85);
+data.setCell(9, 3, 10667);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'textBoxValidation')
+data.setCell(10, 2, 'com.mindtree.runner.BigSmallRunner')
+data.setCell(10, 3, 10119);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'countingLinks')
+data.setCell(11, 2, 'com.mindtree.runner.BigSmallRunner')
+data.setCell(11, 3, 8097);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -375,120 +410,144 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">addToCartValidation</span>
-                <span class="method-start">12250 ms</span>
+                <span class="method-name">addAndRemoveFromCartValidation</span>
+                <span class="method-start">10973 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">21861 ms</span>
+                <span class="method-start">35766 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">browserInvoke</span>
-                <span class="method-start">22117 ms</span>
+                <span class="method-start">37085 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addToWishListValidation</span>
+                <span class="method-start">39614 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">62948 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserInvoke</span>
+                <span class="method-start">64906 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">corporateGiftsValidation</span>
-                <span class="method-start">35946 ms</span>
+                <span class="method-start">68194 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">44643 ms</span>
+                <span class="method-start">86704 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">browserInvoke</span>
-                <span class="method-start">45224 ms</span>
+                <span class="method-start">87057 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">countingLinks</span>
-                <span class="method-start">59188 ms</span>
+                <span class="method-start">90609 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">59445 ms</span>
+                <span class="method-start">119276 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">browserInvoke</span>
-                <span class="method-start">59649 ms</span>
+                <span class="method-start">119811 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">dropdown</span>
-                <span class="method-start">72256 ms</span>
+                <span class="method-start">121675 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">87165 ms</span>
+                <span class="method-start">149721 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">browserInvoke</span>
-                <span class="method-start">87646 ms</span>
+                <span class="method-start">150971 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">marvelPage</span>
-                <span class="method-start">102511 ms</span>
+                <span class="method-start">154625 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">113959 ms</span>
+                <span class="method-start">171622 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">browserInvoke</span>
-                <span class="method-start">114375 ms</span>
+                <span class="method-start">172103 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">personalizedGiftsValidation</span>
-                <span class="method-start">127955 ms</span>
+                <span class="method-start">174693 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">143386 ms</span>
+                <span class="method-start">196172 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">browserInvoke</span>
-                <span class="method-start">143916 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">removeFromCartValidation</span>
-                <span class="method-start">159589 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">173416 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">browserInvoke</span>
-                <span class="method-start">173704 ms</span>
+                <span class="method-start">196559 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">signinValidation</span>
-                <span class="method-start">183740 ms</span>
+                <span class="method-start">199470 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">192682 ms</span>
+                <span class="method-start">218777 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">browserInvoke</span>
-                <span class="method-start">193066 ms</span>
+                <span class="method-start">221429 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">textBoxProductValidation</span>
-                <span class="method-start">207331 ms</span>
+                <span class="method-name">textBoxValidation(key chains)</span>
+                <span class="method-start">223558 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">225982 ms</span>
+                <span class="method-start">234495 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">browserInvoke</span>
-                <span class="method-start">226795 ms</span>
+                <span class="method-start">235655 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">textBoxValidation(santa)</span>
+                <span class="method-start">238310 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">248829 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserInvoke</span>
+                <span class="method-start">249128 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">textBoxValidation(Led Lights)</span>
+                <span class="method-start">251298 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">268435 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserInvoke</span>
+                <span class="method-start">268817 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">wishlistProductRemovalValidation</span>
-                <span class="method-start">238931 ms</span>
+                <span class="method-start">271336 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">256578 ms</span>
+                <span class="method-start">301567 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

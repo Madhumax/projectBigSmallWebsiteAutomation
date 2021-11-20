@@ -1,0 +1,5 @@
+12:05:18.038 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+12:05:18.381 [main] INFO  com.mindtree.runner.BigSmallRunner - browser is closed
+12:05:25.984 [main] DEBUG com.mindtree.runner.BigSmallRunner - browser is invoked
+12:05:26.141 [main] DEBUG com.mindtree.runner.BigSmallRunner - entered the keyword into the search box
+12:05:29.197 [main] DEBUG com.mindtree.runner.BigSmallRunner - text is entered into the searchbox
