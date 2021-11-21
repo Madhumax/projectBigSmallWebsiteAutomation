@@ -1,5 +1,0 @@
-12:43:38.377 [AsyncHttpClient-1-2] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
-12:43:38.641 [main] INFO  com.mindtree.runner.BigSmallRunner - browser is closed
-12:43:47.483 [main] DEBUG com.mindtree.runner.BigSmallRunner - browser is invoked
-12:43:53.777 [main] INFO  com.mindtree.runner.BigSmallRunner - clicked on marvel logo and  navigated to marvel page
-12:43:58.369 [AsyncHttpClient-1-5] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

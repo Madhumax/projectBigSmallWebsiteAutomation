@@ -1,113 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-20T18:15:49 IST" name="Suite" finished-at="2021-11-20T18:20:53 IST" duration-ms="303344">
+  <suite name="Suite" duration-ms="525014" started-at="2021-11-21T12:01:27 IST" finished-at="2021-11-21T12:10:12 IST">
     <groups>
     </groups>
-    <test started-at="2021-11-20T18:15:49 IST" name="Test" finished-at="2021-11-20T18:20:53 IST" duration-ms="303344">
+    <test name="Test" duration-ms="525014" started-at="2021-11-21T12:01:27 IST" finished-at="2021-11-21T12:10:12 IST">
       <class name="com.mindtree.runner.BigSmallRunner">
-        <test-method is-config="true" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:15:49 IST" name="browserInvoke" finished-at="2021-11-20T18:16:00 IST" duration-ms="10969" status="PASS">
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="browserInvoke" is-config="true" duration-ms="4888" started-at="2021-11-21T12:01:28 IST" finished-at="2021-11-21T12:01:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInvoke -->
-        <test-method signature="addAndRemoveFromCartValidation()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:16:00 IST" name="addAndRemoveFromCartValidation" finished-at="2021-11-20T18:16:24 IST" duration-ms="23762" status="PASS">
+        <test-method status="PASS" signature="addAndRemoveFromCartValidation()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="addAndRemoveFromCartValidation" duration-ms="44411" started-at="2021-11-21T12:01:32 IST" finished-at="2021-11-21T12:02:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAndRemoveFromCartValidation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:16:25 IST" name="closeBrowser" finished-at="2021-11-20T18:16:27 IST" duration-ms="1318" status="PASS">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="closeBrowser" is-config="true" duration-ms="912" started-at="2021-11-21T12:02:17 IST" finished-at="2021-11-21T12:02:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:16:27 IST" name="browserInvoke" finished-at="2021-11-20T18:16:29 IST" duration-ms="2529" status="PASS">
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="browserInvoke" is-config="true" duration-ms="2505" started-at="2021-11-21T12:02:18 IST" finished-at="2021-11-21T12:02:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInvoke -->
-        <test-method signature="addToWishListValidation()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:16:29 IST" name="addToWishListValidation" finished-at="2021-11-20T18:16:52 IST" duration-ms="23116" status="PASS">
+        <test-method status="PASS" signature="addToWishListValidation()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="addToWishListValidation" duration-ms="65160" started-at="2021-11-21T12:02:21 IST" finished-at="2021-11-21T12:03:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToWishListValidation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:16:52 IST" name="closeBrowser" finished-at="2021-11-20T18:16:54 IST" duration-ms="1957" status="PASS">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="closeBrowser" is-config="true" duration-ms="809" started-at="2021-11-21T12:03:26 IST" finished-at="2021-11-21T12:03:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:16:54 IST" name="browserInvoke" finished-at="2021-11-20T18:16:58 IST" duration-ms="3288" status="PASS">
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="browserInvoke" is-config="true" duration-ms="2723" started-at="2021-11-21T12:03:27 IST" finished-at="2021-11-21T12:03:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInvoke -->
-        <test-method signature="corporateGiftsValidation()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:16:58 IST" name="corporateGiftsValidation" finished-at="2021-11-20T18:17:15 IST" duration-ms="17633" status="PASS">
+        <test-method status="PASS" signature="corporateGiftsValidation()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="corporateGiftsValidation" duration-ms="37862" started-at="2021-11-21T12:03:30 IST" finished-at="2021-11-21T12:04:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- corporateGiftsValidation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:17:16 IST" name="closeBrowser" finished-at="2021-11-20T18:17:17 IST" duration-ms="352" status="PASS">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="closeBrowser" is-config="true" duration-ms="787" started-at="2021-11-21T12:04:08 IST" finished-at="2021-11-21T12:04:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:17:17 IST" name="browserInvoke" finished-at="2021-11-20T18:17:20 IST" duration-ms="3551" status="PASS">
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="browserInvoke" is-config="true" duration-ms="3046" started-at="2021-11-21T12:04:09 IST" finished-at="2021-11-21T12:04:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInvoke -->
-        <test-method signature="countingLinks()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:17:20 IST" name="countingLinks" finished-at="2021-11-20T18:17:28 IST" duration-ms="8097" status="PASS">
+        <test-method status="PASS" signature="countingLinks()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="countingLinks" duration-ms="23909" started-at="2021-11-21T12:04:12 IST" finished-at="2021-11-21T12:04:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- countingLinks -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:17:49 IST" name="closeBrowser" finished-at="2021-11-20T18:17:49 IST" duration-ms="534" status="PASS">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="closeBrowser" is-config="true" duration-ms="826" started-at="2021-11-21T12:04:36 IST" finished-at="2021-11-21T12:04:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:17:49 IST" name="browserInvoke" finished-at="2021-11-20T18:17:51 IST" duration-ms="1864" status="PASS">
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="browserInvoke" is-config="true" duration-ms="2533" started-at="2021-11-21T12:04:36 IST" finished-at="2021-11-21T12:04:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInvoke -->
-        <test-method signature="dropdown()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:17:51 IST" name="dropdown" finished-at="2021-11-20T18:18:19 IST" duration-ms="27785" status="PASS">
+        <test-method status="PASS" signature="dropdown()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="dropdown" duration-ms="58800" started-at="2021-11-21T12:04:39 IST" finished-at="2021-11-21T12:05:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dropdown -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:18:19 IST" name="closeBrowser" finished-at="2021-11-20T18:18:20 IST" duration-ms="1249" status="PASS">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="closeBrowser" is-config="true" duration-ms="1054" started-at="2021-11-21T12:05:38 IST" finished-at="2021-11-21T12:05:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:18:20 IST" name="browserInvoke" finished-at="2021-11-20T18:18:24 IST" duration-ms="3653" status="PASS">
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="browserInvoke" is-config="true" duration-ms="3120" started-at="2021-11-21T12:05:39 IST" finished-at="2021-11-21T12:05:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInvoke -->
-        <test-method signature="marvelPage()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:18:24 IST" name="marvelPage" finished-at="2021-11-20T18:18:41 IST" duration-ms="16531" status="PASS">
+        <test-method status="PASS" signature="marvelPage()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="marvelPage" duration-ms="35544" started-at="2021-11-21T12:05:42 IST" finished-at="2021-11-21T12:06:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- marvelPage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:18:41 IST" name="closeBrowser" finished-at="2021-11-20T18:18:42 IST" duration-ms="480" status="PASS">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="closeBrowser" is-config="true" duration-ms="766" started-at="2021-11-21T12:06:18 IST" finished-at="2021-11-21T12:06:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:18:42 IST" name="browserInvoke" finished-at="2021-11-20T18:18:44 IST" duration-ms="2590" status="PASS">
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="browserInvoke" is-config="true" duration-ms="3599" started-at="2021-11-21T12:06:19 IST" finished-at="2021-11-21T12:06:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInvoke -->
-        <test-method signature="personalizedGiftsValidation()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:18:44 IST" name="personalizedGiftsValidation" finished-at="2021-11-20T18:19:05 IST" duration-ms="21251" status="PASS">
+        <test-method status="PASS" signature="personalizedGiftsValidation()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="personalizedGiftsValidation" duration-ms="27277" started-at="2021-11-21T12:06:23 IST" finished-at="2021-11-21T12:06:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- personalizedGiftsValidation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:19:06 IST" name="closeBrowser" finished-at="2021-11-20T18:19:06 IST" duration-ms="386" status="PASS">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="closeBrowser" is-config="true" duration-ms="1368" started-at="2021-11-21T12:06:50 IST" finished-at="2021-11-21T12:06:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:19:06 IST" name="browserInvoke" finished-at="2021-11-20T18:19:09 IST" duration-ms="2911" status="PASS">
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="browserInvoke" is-config="true" duration-ms="2732" started-at="2021-11-21T12:06:52 IST" finished-at="2021-11-21T12:06:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInvoke -->
-        <test-method signature="signinValidation()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:19:09 IST" name="signinValidation" finished-at="2021-11-20T18:19:27 IST" duration-ms="18466" status="PASS">
+        <test-method status="PASS" signature="signinValidation()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="signinValidation" duration-ms="29444" started-at="2021-11-21T12:06:54 IST" finished-at="2021-11-21T12:07:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signinValidation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:19:28 IST" name="closeBrowser" finished-at="2021-11-20T18:19:29 IST" duration-ms="446" status="PASS">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="closeBrowser" is-config="true" duration-ms="826" started-at="2021-11-21T12:07:24 IST" finished-at="2021-11-21T12:07:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:19:31 IST" name="browserInvoke" finished-at="2021-11-20T18:19:33 IST" duration-ms="2129" status="PASS">
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="browserInvoke" is-config="true" duration-ms="2243" started-at="2021-11-21T12:07:28 IST" finished-at="2021-11-21T12:07:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInvoke -->
-        <test-method signature="textBoxValidation(java.lang.String)[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:19:33 IST" name="textBoxValidation" data-provider="getdata" finished-at="2021-11-20T18:19:44 IST" duration-ms="10667" status="PASS">
+        <test-method status="PASS" signature="textBoxValidation(java.lang.String)[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="textBoxValidation" duration-ms="28474" started-at="2021-11-21T12:07:30 IST" data-provider="getdata" finished-at="2021-11-21T12:07:58 IST">
           <params>
             <param index="0">
               <value>
@@ -118,15 +118,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- textBoxValidation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:19:44 IST" name="closeBrowser" finished-at="2021-11-20T18:19:45 IST" duration-ms="1159" status="PASS">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="closeBrowser" is-config="true" duration-ms="1263" started-at="2021-11-21T12:07:59 IST" finished-at="2021-11-21T12:08:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:19:45 IST" name="browserInvoke" finished-at="2021-11-20T18:19:48 IST" duration-ms="2655" status="PASS">
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="browserInvoke" is-config="true" duration-ms="3613" started-at="2021-11-21T12:08:00 IST" finished-at="2021-11-21T12:08:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInvoke -->
-        <test-method signature="textBoxValidation(java.lang.String)[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:19:48 IST" name="textBoxValidation" data-provider="getdata" finished-at="2021-11-20T18:19:58 IST" duration-ms="10119" status="PASS">
+        <test-method status="PASS" signature="textBoxValidation(java.lang.String)[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="textBoxValidation" duration-ms="28700" started-at="2021-11-21T12:08:04 IST" data-provider="getdata" finished-at="2021-11-21T12:08:32 IST">
           <params>
             <param index="0">
               <value>
@@ -137,15 +137,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- textBoxValidation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:19:58 IST" name="closeBrowser" finished-at="2021-11-20T18:19:59 IST" duration-ms="298" status="PASS">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="closeBrowser" is-config="true" duration-ms="777" started-at="2021-11-21T12:08:32 IST" finished-at="2021-11-21T12:08:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:19:59 IST" name="browserInvoke" finished-at="2021-11-20T18:20:01 IST" duration-ms="2169" status="PASS">
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="browserInvoke" is-config="true" duration-ms="4750" started-at="2021-11-21T12:08:33 IST" finished-at="2021-11-21T12:08:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInvoke -->
-        <test-method signature="textBoxValidation(java.lang.String)[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:20:01 IST" name="textBoxValidation" data-provider="getdata" finished-at="2021-11-20T18:20:17 IST" duration-ms="16429" status="PASS">
+        <test-method status="PASS" signature="textBoxValidation(java.lang.String)[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="textBoxValidation" duration-ms="30326" started-at="2021-11-21T12:08:38 IST" data-provider="getdata" finished-at="2021-11-21T12:09:08 IST">
           <params>
             <param index="0">
               <value>
@@ -156,19 +156,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- textBoxValidation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:20:18 IST" name="closeBrowser" finished-at="2021-11-20T18:20:18 IST" duration-ms="381" status="PASS">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="closeBrowser" is-config="true" duration-ms="1427" started-at="2021-11-21T12:09:09 IST" finished-at="2021-11-21T12:09:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:20:18 IST" name="browserInvoke" finished-at="2021-11-20T18:20:21 IST" duration-ms="2519" status="PASS">
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="browserInvoke" is-config="true" duration-ms="3288" started-at="2021-11-21T12:09:10 IST" finished-at="2021-11-21T12:09:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInvoke -->
-        <test-method signature="wishlistProductRemovalValidation()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:20:21 IST" name="wishlistProductRemovalValidation" finished-at="2021-11-20T18:20:50 IST" duration-ms="28753" status="PASS">
+        <test-method status="PASS" signature="wishlistProductRemovalValidation()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="wishlistProductRemovalValidation" duration-ms="57730" started-at="2021-11-21T12:09:13 IST" finished-at="2021-11-21T12:10:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wishlistProductRemovalValidation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@3e5499cc]" started-at="2021-11-20T18:20:51 IST" name="closeBrowser" finished-at="2021-11-20T18:20:53 IST" duration-ms="1715" status="PASS">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mindtree.runner.BigSmallRunner@fd07cbb]" name="closeBrowser" is-config="true" duration-ms="846" started-at="2021-11-21T12:10:12 IST" finished-at="2021-11-21T12:10:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

@@ -140,7 +140,6 @@ public class BigSmallRunner extends WebDriverHelper
 		lp.getSearchBox().sendKeys("key chains");
 		log.debug("entered the keyword into the search box");
 		lp.getSearchBox().sendKeys(Keys.ENTER);
-		log.debug("text is entered into the searchbox");
 		ProductPage p=new ProductPage(driver);
 		p.getProduct().click();
 		log.debug("clicked on the product");

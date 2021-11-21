@@ -1,6 +1,0 @@
-12:38:10.183 [main] DEBUG com.mindtree.runner.BigSmallRunner - entered the keyword into the search box
-12:38:14.152 [main] DEBUG com.mindtree.runner.BigSmallRunner - text is entered into the searchbox
-12:38:19.972 [main] DEBUG com.mindtree.runner.BigSmallRunner - clicked on the product
-12:38:21.144 [main] DEBUG com.mindtree.runner.BigSmallRunner - clicked on wishlist icon
-12:38:26.327 [main] DEBUG com.mindtree.runner.BigSmallRunner - clicked on access to wishlist
-12:38:26.982 [main] DEBUG com.mindtree.runner.BigSmallRunner - product is successfully added to wishlist

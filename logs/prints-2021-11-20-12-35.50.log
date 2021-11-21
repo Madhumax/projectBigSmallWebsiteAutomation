@@ -1,5 +1,0 @@
-12:35:24.397 [main] DEBUG com.mindtree.runner.BigSmallRunner - browser is invoked
-12:35:30.083 [main] INFO  com.mindtree.runner.BigSmallRunner - clicked on marvel logo and  navigated to marvel page
-12:35:36.198 [AsyncHttpClient-1-8] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
-12:35:37.148 [main] INFO  com.mindtree.runner.BigSmallRunner - browser is closed
-12:35:47.559 [main] DEBUG com.mindtree.runner.BigSmallRunner - browser is invoked

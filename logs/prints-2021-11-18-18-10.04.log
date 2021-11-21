@@ -1,6 +1,0 @@
-18:09:48.936 [main] DEBUG com.mindtree.runner.BigSmallRunner - text is entered into the searchbox
-18:09:55.719 [main] DEBUG com.mindtree.runner.BigSmallRunner - clicked on the product
-18:09:56.897 [main] DEBUG com.mindtree.runner.BigSmallRunner - clicked on wishlist icon
-18:10:03.003 [main] DEBUG com.mindtree.runner.BigSmallRunner - clicked on access to wishlist
-18:10:03.385 [main] DEBUG com.mindtree.runner.BigSmallRunner - product is successfully added to wishlist
-18:10:03.607 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

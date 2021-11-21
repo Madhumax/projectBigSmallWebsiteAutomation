@@ -1,0 +1,5 @@
+12:07:12.552 [main] DEBUG com.mindtree.runner.BigSmallRunner - browser is invoked
+12:07:16.805 [main] INFO  com.mindtree.runner.BigSmallRunner - clicked on signin icon
+12:07:24.405 [main] INFO  com.mindtree.runner.BigSmallRunner - email and password were entered in the respective spaces
+12:07:24.595 [AsyncHttpClient-1-9] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+12:07:25.417 [main] INFO  com.mindtree.runner.BigSmallRunner - browser is closed

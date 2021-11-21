@@ -1,5 +1,0 @@
-18:07:02.093 [main] DEBUG com.mindtree.runner.BigSmallRunner - details were entered successfully
-18:07:02.268 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
-18:07:02.847 [main] INFO  com.mindtree.runner.BigSmallRunner - browser is closed
-18:07:16.812 [main] DEBUG com.mindtree.runner.BigSmallRunner - browser is invoked
-18:07:17.069 [AsyncHttpClient-1-2] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

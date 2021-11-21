@@ -1,6 +1,0 @@
-11:31:58.232 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x7f5e5e957dcd498a
-11:32:05.534 [main] DEBUG com.mindtree.runner.BigSmallRunner - browser is invoked
-11:32:05.920 [main] DEBUG com.mindtree.runner.BigSmallRunner - entered the keyword into the search box
-11:32:08.912 [main] DEBUG com.mindtree.runner.BigSmallRunner - text is entered into the searchbox
-11:32:13.750 [main] DEBUG com.mindtree.runner.BigSmallRunner - clicked on the product
-11:32:14.142 [main] DEBUG com.mindtree.runner.BigSmallRunner - added to the cart
