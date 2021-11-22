@@ -15,7 +15,7 @@ public class ExcelClass
 	public ArrayList<String> getDetailsOfSheet() throws IOException
 	{
 		ArrayList<String> a=new ArrayList<String>();
-		FileInputStream fis=new FileInputStream("D://Excel//Demosheet.xlsx");
+		FileInputStream fis=new FileInputStream(".\\testdata\\Demosheet.xlsx");
 		XSSFWorkbook workbook=new XSSFWorkbook(fis);
 		int count=workbook.getNumberOfSheets();
 		

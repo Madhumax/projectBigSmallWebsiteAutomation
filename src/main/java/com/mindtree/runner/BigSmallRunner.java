@@ -34,6 +34,7 @@ public class BigSmallRunner extends WebDriverHelper
 	public void browserInvoke() throws IOException
 	{
 		driver=baseFile();
+		driver.manage().window().maximize();
 		
 	}
 	

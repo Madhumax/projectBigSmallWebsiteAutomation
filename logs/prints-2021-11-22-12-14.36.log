@@ -1,0 +1,6 @@
+12:14:05.625 [main] INFO  com.mindtree.runner.BigSmallRunner - browser is closed
+12:14:19.047 [main] DEBUG com.mindtree.runner.BigSmallRunner - browser is invoked
+12:14:19.169 [main] DEBUG com.mindtree.runner.BigSmallRunner - entered the keyword into the search box
+12:14:23.703 [main] DEBUG com.mindtree.runner.BigSmallRunner - text is entered into the searchbox
+12:14:29.905 [main] DEBUG com.mindtree.runner.BigSmallRunner - clicked on the product
+12:14:30.822 [main] DEBUG com.mindtree.runner.BigSmallRunner - clicked on wishlist icon
